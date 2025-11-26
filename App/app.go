@@ -9,7 +9,7 @@ func main() {
 	// Register the handler function for the root route
     http.HandleFunc("/", indexPage)
 		// Start the server and listen on port 8000
-    	http.ListenAndServe(":8000", nil)
+    	http.ListenAndServe(":8080", nil)
 }
 
 // indexPage is the handler function for the root route "/"
